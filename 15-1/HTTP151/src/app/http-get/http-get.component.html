@@ -1,0 +1,7 @@
+<h2>Basic Request</h2>
+<button type="button" (click)="richiestaGET()">Make Get</button>
+<div *ngIf="loading">loading...</div>
+<pre>{{data | json}}</pre>
+<button type="button" (click)="richiestaPOST()">Make Post</button>
+<div *ngIf="loading2">loading...</div>
+<pre>{{data2 | json}}</pre>
